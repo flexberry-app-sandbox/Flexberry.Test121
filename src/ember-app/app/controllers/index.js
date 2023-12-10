@@ -22,30 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-test12-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.test12.i-i-s-test12-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.test12.i-i-s-test12-сотрудник-l.title'),
-            icon: 'tags',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-test12-заказ-l',
             caption: i18n.t('forms.application.sitemap.test12.i-i-s-test12-заказ-l.caption'),
             title: i18n.t('forms.application.sitemap.test12.i-i-s-test12-заказ-l.title'),
-            icon: 'chart bar',
+            icon: 'paperclip',
             children: null
           }, {
             link: 'i-i-s-test12-товары-l',
             caption: i18n.t('forms.application.sitemap.test12.i-i-s-test12-товары-l.caption'),
             title: i18n.t('forms.application.sitemap.test12.i-i-s-test12-товары-l.title'),
-            icon: 'address card',
+            icon: 'chart line',
             children: null
           }, {
             link: 'i-i-s-test12-оповещения-l',
             caption: i18n.t('forms.application.sitemap.test12.i-i-s-test12-оповещения-l.caption'),
             title: i18n.t('forms.application.sitemap.test12.i-i-s-test12-оповещения-l.title'),
+            icon: 'tags',
             children: null
           }, {
             link: 'i-i-s-test12-клиент-l',
             caption: i18n.t('forms.application.sitemap.test12.i-i-s-test12-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.test12.i-i-s-test12-клиент-l.title'),
-            icon: 'phone',
+            icon: 'suitcase',
             children: null
           }]
         }

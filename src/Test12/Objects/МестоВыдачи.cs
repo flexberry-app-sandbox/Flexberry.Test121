@@ -12,6 +12,7 @@ namespace IIS.Test12
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,16 +32,19 @@ namespace IIS.Test12
         // *** Start programmer edit section *** (МестоВыдачи.Машиностроителей CustomAttributes)
 
         // *** End programmer edit section *** (МестоВыдачи.Машиностроителей CustomAttributes)
+        [Caption("Машиностроителей")]
         Машиностроителей,
         
         // *** Start programmer edit section *** (МестоВыдачи.Молокова CustomAttributes)
 
         // *** End programmer edit section *** (МестоВыдачи.Молокова CustomAttributes)
+        [Caption("Молокова")]
         Молокова,
         
         // *** Start programmer edit section *** (МестоВыдачи.Взлетная CustomAttributes)
 
         // *** End programmer edit section *** (МестоВыдачи.Взлетная CustomAttributes)
+        [Caption("Взлетная")]
         Взлетная,
     }
 }
