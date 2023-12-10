@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Test12",
+  "applicationTitle": "Test12",
+  "items": [
+    {
+      "link": null,
+      "menuName": "test12",
+      "caption": "Test12",
+      "title": "Test12",
+      "children": [
+        {
+          "link": "i-i-s-test12-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test12-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test12-товары-l",
+          "menuName": null,
+          "caption": "Товары",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test12-оповещения-l",
+          "menuName": null,
+          "caption": "Оповещения",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-test12-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

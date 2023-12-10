@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Заказ",
+      "projection": "ЗаказL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Оповещения",
+  "name": "IISTest12ОповещенияE",
+  "className": "ОповещенияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test12-оповещения",
+      "modelProjection": "ОповещенияE"
+    }
+  ]
+}

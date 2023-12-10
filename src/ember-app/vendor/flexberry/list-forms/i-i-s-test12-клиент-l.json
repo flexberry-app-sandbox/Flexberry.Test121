@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-test12-клиент-e",
+  "editForm": "i-i-s-test12-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISTest12КлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test12-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

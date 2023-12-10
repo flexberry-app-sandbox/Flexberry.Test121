@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Клиент",
+      "projection": "КлиентL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "товары",
+      "displayAttributeName": "название",
+      "required": true,
+      "relationName": "СоставЗаказа.Товары",
+      "projection": "ТоварыL",
+      "detailModelName": "i-i-s-test12-состав-заказа"
+    }
+  ],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISTest12ЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-test12-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}
