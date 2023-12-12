@@ -26,7 +26,7 @@ export default Controller.extend({
               link: 'i-i-s-test12-сотрудник-l',
               caption: i18n.t('forms.application.sitemap.главная.сотрудники.i-i-s-test12-сотрудник-l.caption'),
               title: i18n.t('forms.application.sitemap.главная.сотрудники.i-i-s-test12-сотрудник-l.title'),
-              icon: 'list',
+              icon: 'edit',
               children: null
             }]
           }, {
@@ -37,7 +37,7 @@ export default Controller.extend({
               link: 'i-i-s-test12-заказ-l',
               caption: i18n.t('forms.application.sitemap.главная.заказы.i-i-s-test12-заказ-l.caption'),
               title: i18n.t('forms.application.sitemap.главная.заказы.i-i-s-test12-заказ-l.title'),
-              icon: 'file',
+              icon: 'list',
               children: null
             }]
           }, {
@@ -48,7 +48,7 @@ export default Controller.extend({
               link: 'i-i-s-test12-товары-l',
               caption: i18n.t('forms.application.sitemap.главная.справочник-товаров.i-i-s-test12-товары-l.caption'),
               title: i18n.t('forms.application.sitemap.главная.справочник-товаров.i-i-s-test12-товары-l.title'),
-              icon: 'calendar',
+              icon: 'folder open',
               children: null
             }]
           }, {
@@ -59,7 +59,7 @@ export default Controller.extend({
               link: 'i-i-s-test12-оповещения-l',
               caption: i18n.t('forms.application.sitemap.главная.s-m-s-оповещения.i-i-s-test12-оповещения-l.caption'),
               title: i18n.t('forms.application.sitemap.главная.s-m-s-оповещения.i-i-s-test12-оповещения-l.title'),
-              icon: 'tags',
+              icon: 'archive',
               children: null
             }]
           }, {
@@ -70,7 +70,7 @@ export default Controller.extend({
               link: 'i-i-s-test12-клиент-l',
               caption: i18n.t('forms.application.sitemap.главная.клиенты.i-i-s-test12-клиент-l.caption'),
               title: i18n.t('forms.application.sitemap.главная.клиенты.i-i-s-test12-клиент-l.title'),
-              icon: 'address card',
+              icon: 'table',
               children: null
             }]
           }]

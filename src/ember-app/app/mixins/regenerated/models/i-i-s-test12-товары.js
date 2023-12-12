@@ -45,12 +45,14 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТоварыE', 'i-i-s-test12-товары', {
     кодТовара: attr('Код товара', { index: 0 }),
     название: attr('Название', { index: 1 }),
-    количество: attr('Количество', { index: 2 })
+    количество: attr('Количество', { index: 2 }),
+    ценаЗаЕд: attr('ЦенаЗаЕд', { index: 3 })
   });
 
   modelClass.defineProjection('ТоварыL', 'i-i-s-test12-товары', {
     кодТовара: attr('Код товара', { index: 0 }),
     название: attr('Название', { index: 1 }),
-    количество: attr('Количество', { index: 2 })
+    количество: attr('Количество', { index: 2 }),
+    ценаЗаЕд: attr('ЦенаЗаЕд', { index: 3 })
   });
 };

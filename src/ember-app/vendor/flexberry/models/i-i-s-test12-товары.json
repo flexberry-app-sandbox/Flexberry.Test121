@@ -67,6 +67,12 @@
           "caption": "Количество",
           "hidden": false,
           "index": 2
+        },
+        {
+          "name": "ценаЗаЕд",
+          "caption": "ЦенаЗаЕд",
+          "hidden": false,
+          "index": 3
         }
       ],
       "belongsTo": [],
@@ -93,6 +99,12 @@
           "caption": "Количество",
           "hidden": false,
           "index": 2
+        },
+        {
+          "name": "ценаЗаЕд",
+          "caption": "ЦенаЗаЕд",
+          "hidden": false,
+          "index": 3
         }
       ],
       "belongsTo": [],
