@@ -45,6 +45,8 @@ namespace IIS.Test12
         
         private int fКоличество;
         
+        private double fЦенаЗаЕд;
+        
         // *** Start programmer edit section *** (Товары CustomMembers)
 
         // *** End programmer edit section *** (Товары CustomMembers)
@@ -141,6 +143,37 @@ namespace IIS.Test12
                 // *** Start programmer edit section *** (Товары.Название Set end)
 
                 // *** End programmer edit section *** (Товары.Название Set end)
+            }
+        }
+        
+        /// <summary>
+        /// ЦенаЗаЕд.
+        /// </summary>
+        // *** Start programmer edit section *** (Товары.ЦенаЗаЕд CustomAttributes)
+
+        // *** End programmer edit section *** (Товары.ЦенаЗаЕд CustomAttributes)
+        public virtual double ЦенаЗаЕд
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Товары.ЦенаЗаЕд Get start)
+
+                // *** End programmer edit section *** (Товары.ЦенаЗаЕд Get start)
+                double result = this.fЦенаЗаЕд;
+                // *** Start programmer edit section *** (Товары.ЦенаЗаЕд Get end)
+
+                // *** End programmer edit section *** (Товары.ЦенаЗаЕд Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Товары.ЦенаЗаЕд Set start)
+
+                // *** End programmer edit section *** (Товары.ЦенаЗаЕд Set start)
+                this.fЦенаЗаЕд = value;
+                // *** Start programmer edit section *** (Товары.ЦенаЗаЕд Set end)
+
+                // *** End programmer edit section *** (Товары.ЦенаЗаЕд Set end)
             }
         }
         

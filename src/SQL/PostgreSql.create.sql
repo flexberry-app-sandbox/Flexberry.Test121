@@ -37,6 +37,7 @@ CREATE TABLE Товары (
  КодТовара INT NULL,
  Количество INT NULL,
  Название VARCHAR(255) NULL,
+ ЦенаЗаЕд DOUBLE PRECISION NULL,
  PRIMARY KEY (primaryKey));
 
 

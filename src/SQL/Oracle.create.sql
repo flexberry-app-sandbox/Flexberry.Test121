@@ -68,6 +68,8 @@ CREATE TABLE "Товары"
 
 	"Количество" NUMBER(10) NULL,
 
+	"ЦенаЗаЕд" FLOAT(126) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

@@ -30,6 +30,9 @@ public class Tovary {
     @Column(name = "Количество")
     private Integer количество;
 
+    @Column(name = "ЦенаЗаЕд")
+    private Double ценазаед;
+
 
     public Tovary() {
         super();
@@ -65,6 +68,14 @@ public class Tovary {
 
     public void setКоличество(Integer количество) {
       this.количество = количество;
+    }
+
+    public Double getЦенаЗаЕд() {
+      return ценазаед;
+    }
+
+    public void setЦенаЗаЕд(Double ценазаед) {
+      this.ценазаед = ценазаед;
     }
 
 

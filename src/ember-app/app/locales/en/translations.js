@@ -94,6 +94,50 @@ $.extend(true, translations, {
           caption: 'Home',
           title: ''
         },
+        главная: {
+          caption: 'Главная',
+          title: 'Главная',
+          сотрудники: {
+            caption: 'Сотрудники',
+            title: 'Сотрудники',
+            'i-i-s-test12-сотрудник-l': {
+              caption: 'Сотрудник',
+              title: 'Сотрудник'
+            }
+          },
+          заказы: {
+            caption: 'Заказы',
+            title: 'Заказы',
+            'i-i-s-test12-заказ-l': {
+              caption: 'Заказ',
+              title: 'Заказ'
+            }
+          },
+          'справочник-товаров': {
+            caption: 'СправочникТоваров',
+            title: 'СправочникТоваров',
+            'i-i-s-test12-товары-l': {
+              caption: 'Товары',
+              title: 'Товары'
+            }
+          },
+          's-m-s-оповещения': {
+            caption: 'SMS-Оповещения',
+            title: 'SMS-Оповещения',
+            'i-i-s-test12-оповещения-l': {
+              caption: 'Оповещения',
+              title: 'Оповещения'
+            }
+          },
+          клиенты: {
+            caption: 'Клиенты',
+            title: 'Клиенты',
+            'i-i-s-test12-клиент-l': {
+              caption: 'Клиент',
+              title: 'Клиент'
+            }
+          }
+        },
         test12: {
           caption: 'Test12',
           title: 'Test12',
